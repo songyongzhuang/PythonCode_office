@@ -1,0 +1,7 @@
+测试框架进行分层设计：
+- 测试用例，提前写好的 Excel 文档。
+- 测试用例方法。都方法统一的文件夹， test_case, test_case 下面根据实际情况设置子文件，最好是以 test_ 开头
+- 测试套件+加载器+测试报告， 我们运行的脚本。
+- 测试数据管理（ExcelHandler + ddt）
+- 配置文件不是必须的，优化的手段。作用：Excel 文档名称 cases.xlsx
+- 日志记录是不是必须的。作用是：error, critical, debug

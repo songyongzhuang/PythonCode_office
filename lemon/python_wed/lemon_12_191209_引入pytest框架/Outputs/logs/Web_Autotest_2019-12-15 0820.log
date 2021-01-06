@@ -1,0 +1,19 @@
+ Sun, 15 Dec 2019 08:20:44  INFO logger.py <module> [ line:30 ] hehehe
+ Sun, 15 Dec 2019 08:20:56  INFO test_login.py test_login_failed_by_wrongData [ line:56 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 08:20:56.444287,结束时间为:2019-12-15 08:20:56.467225,一共等待耗时为:0:00:00.022938
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 08:20:56.512261,结束时间为:2019-12-15 08:20:56.536229,一共等待耗时为:0:00:00.023968
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 08:20:56.600024,结束时间为:2019-12-15 08:20:56.619971,一共等待耗时为:0:00:00.019947
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 08:20:56.681806,结束时间为:2019-12-15 08:20:56.701796,一共等待耗时为:0:00:00.019990
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py get_element [ line:93 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py get_element_text [ line:166 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Sun, 15 Dec 2019 08:20:56  INFO basepage.py get_element_text [ line:177 ] 获取的文本值为: 请输入手机号

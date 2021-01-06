@@ -1,0 +1,85 @@
+ Sun, 15 Dec 2019 18:32:53  INFO logger.py <module> [ line:30 ] hehehe
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 18:33:04.702329,结束时间为:2019-12-15 18:33:04.726265,一共等待耗时为:0:00:00.023936
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 18:33:04.816026,结束时间为:2019-12-15 18:33:04.838964,一共等待耗时为:0:00:00.022938
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 18:33:04.909776,结束时间为:2019-12-15 18:33:04.929723,一共等待耗时为:0:00:00.019947
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 18:33:04  INFO basepage.py wait_ele_visible [ line:43 ] 首页_点击第一个抢投标按钮 : 等待 ('xpath', '//a[@class="btn btn-special"]') 元素可见
+ Sun, 15 Dec 2019 18:33:26  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 18:33:04.978592,结束时间为:2019-12-15 18:33:26.493767,一共等待耗时为:0:00:21.515175
+ Sun, 15 Dec 2019 18:33:26  INFO basepage.py get_element [ line:93 ] 首页_点击第一个抢投标按钮 : 查找 ('xpath', '//a[@class="btn btn-special"]') 元素.
+ Sun, 15 Dec 2019 18:33:26  INFO basepage.py click_element [ line:143 ] 首页_点击第一个抢投标按钮: 点击 ('xpath', '//a[@class="btn btn-special"]') 元素 
+ Sun, 15 Dec 2019 18:33:33  INFO test_invests.py test_invest_success [ line:38 ] ******* 投资功能 - 正常场景用例：投资1000元成功。用户可用余额减少1000，标余额减少1000 *******
+ Sun, 15 Dec 2019 18:33:33  INFO basepage.py wait_page_contains_element [ line:69 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Sun, 15 Dec 2019 18:33:33  ERROR basepage.py wait_page_contains_element [ line:77 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\PythonCode\lemon\python_wed\lemon_12_191209_引入pytest框架\Common\basepage.py", line 74, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
+
+ Sun, 15 Dec 2019 18:33:33  ERROR basepage.py save_page_screenshot [ line:246 ] 当前网页截图失败
+Traceback (most recent call last):
+  File "E:\PythonCode\lemon\python_wed\lemon_12_191209_引入pytest框架\Common\basepage.py", line 74, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PythonCode\lemon\python_wed\lemon_12_191209_引入pytest框架\Common\basepage.py", line 244, in save_page_screenshot
+    self.driver.save_screenshot(screenshot_path)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
+

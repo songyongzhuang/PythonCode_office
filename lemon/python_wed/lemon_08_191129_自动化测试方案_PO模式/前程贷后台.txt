@@ -1,0 +1,11 @@
+
+web网站：http://120.78.128.25:8765/Index/login.html
+
+可使用的帐号： 18684720553/python      13760246701/python
+
+
+后台管理系统 加标和审核的帐号：
+    http://120.78.128.25:8765/Admin/Index/login.html
+    帐号:lemon7 密码:lemonbest
+
+前程贷后台都有一个万能验证码:hapi

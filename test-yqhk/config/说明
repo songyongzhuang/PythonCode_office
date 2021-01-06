@@ -1,0 +1,28 @@
+
+config文件夹里放的是配置文件
+
+framework文件夹里面放的是公共类，常用类，还有读配置文件类、日志类、截图类、发送邮件、生成测试报告、操作读取数据库、读取Excel等，后面几篇会一一介绍
+
+logs文件夹存放生成的日志文件
+
+pageobject存放页面类包括元素的定位等
+
+screenshots文件放的是生成的截图
+
+test_report文件夹存放的是生成的测试报告
+
+testsuits文件夹放的是测试用例
+
+tools放的是工具，比如驱动等
+
+
+
+-- ---------------------------------------
+@pytest.fixture(scope='function')
+scope参数是fixture方法中的其中一个参数；
+scope参数用来设置fixture的应用范围，设置后，会根据设置的范围去触发执行；
+scope参数有4个可选值：function（默认）、class、module、package/session
+function：每个方法（函数）都会执行一次；
+class：每个类都会执行一次。类中有多个方法调用，只在第一个方法调用时执行；
+module：一个 .py 文件执行一次。一个.py 文件可能包含多个类和方法；
+package/session：多个文件调用一次，可以跨 .py 文件。注意使用时单独写package或session

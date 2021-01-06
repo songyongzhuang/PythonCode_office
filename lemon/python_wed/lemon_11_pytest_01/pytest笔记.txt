@@ -1,0 +1,18 @@
+unittest \ pytest 区别：
+
+pip install pytest
+
+1、编写用例上：
+    unittest: 测试类 继承 unittest.TestCase
+    pytest: 函数/类(Test)里面的方法，必须以 test 开头
+
+2、用例收集上：
+    unittest：testsuite装用例，运行.
+    pytest：自动识别用例.
+    识别用例的规则(编写pytest用例的规则)
+    1.给定跟目录？ 在那个目录下运行pytest，它就以哪个作为根目录
+    2.命名，以test 开头或者结尾 test*.py  *test.py
+    3.函数、类 用例命名：test_开头 Test开头的类(没有_init_, 因为他是一个对象)下test_开头的方法
+    PS：用例执行顺序：
+        1.按照文件排序(ascii): 先识别到的文件，里面的用例先执行
+        2.文件内部-按照代码先后顺序

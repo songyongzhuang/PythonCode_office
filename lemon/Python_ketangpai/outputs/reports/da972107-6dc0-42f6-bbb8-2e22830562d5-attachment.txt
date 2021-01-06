@@ -1,0 +1,22 @@
+INFO     root:test_login.py:61 *** 登陆功能 - 异常用例 - 用户名不能为空/密码不能为空 ***
+INFO     root:base_page.py:54 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:20.826329,结束时间为:2019-12-27 18:33:20.866345,一共等待耗时为:-1 day, 23:59:59.959984
+INFO     root:base_page.py:112 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素点击
+INFO     root:base_page.py:54 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:21.804279,结束时间为:2019-12-27 18:33:21.836487,一共等待耗时为:-1 day, 23:59:59.967792
+INFO     root:base_page.py:112 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素输入文本：17662460324
+INFO     root:base_page.py:54 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:21.999480,结束时间为:2019-12-27 18:33:22.043407,一共等待耗时为:-1 day, 23:59:59.956073
+INFO     root:base_page.py:112 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素输入文本：1
+INFO     root:base_page.py:54 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:22.142952,结束时间为:2019-12-27 18:33:22.184920,一共等待耗时为:-1 day, 23:59:59.958032
+INFO     root:base_page.py:112 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素点击
+INFO     root:base_page.py:88 账号登录页面_表单区域错误提示：等待('xpath', '//p[@class="error-tips"]')元素存在
+INFO     root:base_page.py:103 等待结束.开始时间为2019-12-27 18:33:22.365479,结束时间为:2019-12-27 18:33:22.378170,一共等待耗时为:-1 day, 23:59:59.987309
+INFO     root:base_page.py:112 账号登录页面_表单区域错误提示：等待('xpath', '//p[@class="error-tips"]')元素存在
+INFO     root:base_page.py:192 账号登录页面_表单区域错误提示：获取('xpath', '//p[@class="error-tips"]')元素的文本值
+INFO     root:base_page.py:203 获取('xpath', '//p[@class="error-tips"]')元素的文本值为：请输入6-24位密码

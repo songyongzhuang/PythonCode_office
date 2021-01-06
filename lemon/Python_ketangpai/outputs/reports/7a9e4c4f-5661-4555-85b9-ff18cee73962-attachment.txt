@@ -1,0 +1,51 @@
+INFO     root:base_page.py:54 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:35.633131,结束时间为:2019-12-27 18:33:35.667292,一共等待耗时为:-1 day, 23:59:59.965839
+INFO     root:base_page.py:112 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素点击
+INFO     root:base_page.py:54 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:36.585706,结束时间为:2019-12-27 18:33:36.619867,一共等待耗时为:-1 day, 23:59:59.965839
+INFO     root:base_page.py:112 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素输入文本：17662460324
+INFO     root:base_page.py:54 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:36.772123,结束时间为:2019-12-27 18:33:36.799451,一共等待耗时为:-1 day, 23:59:59.972672
+INFO     root:base_page.py:112 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素输入文本：song656421952
+INFO     root:base_page.py:54 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:37.050283,结束时间为:2019-12-27 18:33:37.077613,一共等待耗时为:-1 day, 23:59:59.972670
+INFO     root:base_page.py:112 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素点击
+INFO     root:test_send_letter.py:42 *** 发送私信功能 - 正常登录用例：发送私信成功 ***
+INFO     root:base_page.py:54 课堂派首页_点击私信按钮：等待('xpath', '//div[@class="privateLetter"]//a[@target="_blank"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:37.204490,结束时间为:2019-12-27 18:33:37.895499,一共等待耗时为:-1 day, 23:59:59.308991
+INFO     root:base_page.py:112 课堂派首页_点击私信按钮：等待('xpath', '//div[@class="privateLetter"]//a[@target="_blank"]')元素存在
+INFO     root:base_page.py:167 课堂派首页_点击私信按钮：等待('xpath', '//div[@class="privateLetter"]//a[@target="_blank"]')元素点击
+INFO     root:base_page.py:264 当前的窗口['CDwindow-F3D0656661922596A67525C2E19D064A', 'CDwindow-9B1811B3FA42AC587CBBEEE7C77EBC7A']
+INFO     root:base_page.py:54 私信页面_点击搜索学号姓名：等待('xpath', '//input[@type="text"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:40.188119,结束时间为:2019-12-27 18:33:44.223876,一共等待耗时为:-1 day, 23:59:55.964243
+INFO     root:base_page.py:112 私信页面_点击搜索学号姓名：等待('xpath', '//input[@type="text"]')元素存在
+INFO     root:base_page.py:167 私信页面_点击搜索学号姓名：等待('xpath', '//input[@type="text"]')元素点击
+INFO     root:base_page.py:54 私信页面_输入学号姓名：等待('xpath', '//input[@type="text"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:44.330260,结束时间为:2019-12-27 18:33:44.349780,一共等待耗时为:-1 day, 23:59:59.980480
+INFO     root:base_page.py:112 私信页面_输入学号姓名：等待('xpath', '//input[@type="text"]')元素存在
+INFO     root:base_page.py:142 私信页面_输入学号姓名：等待('xpath', '//input[@type="text"]')元素输入文本：郑凯歌
+INFO     root:base_page.py:54 课堂派首页_点击搜索的学生姓名：等待('xpath', '//span[@title="郑凯歌2250"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:44.404437,结束时间为:2019-12-27 18:33:45.464371,一共等待耗时为:-1 day, 23:59:58.940066
+INFO     root:base_page.py:112 课堂派首页_点击搜索的学生姓名：等待('xpath', '//span[@title="郑凯歌2250"]')元素存在
+INFO     root:base_page.py:167 课堂派首页_点击搜索的学生姓名：等待('xpath', '//span[@title="郑凯歌2250"]')元素点击
+INFO     root:base_page.py:54 私信页面_点击学生私信输入框：等待('xpath', '//textarea[@class="ps-container"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:45.563923,结束时间为:2019-12-27 18:33:45.594179,一共等待耗时为:-1 day, 23:59:59.969744
+INFO     root:base_page.py:112 私信页面_点击学生私信输入框：等待('xpath', '//textarea[@class="ps-container"]')元素存在
+INFO     root:base_page.py:167 私信页面_点击学生私信输入框：等待('xpath', '//textarea[@class="ps-container"]')元素点击
+INFO     root:base_page.py:54 私信页面_输入数据到学生私信输入框：等待('xpath', '//textarea[@class="ps-container"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:45.716179,结束时间为:2019-12-27 18:33:45.750339,一共等待耗时为:-1 day, 23:59:59.965840
+INFO     root:base_page.py:112 私信页面_输入数据到学生私信输入框：等待('xpath', '//textarea[@class="ps-container"]')元素存在
+INFO     root:base_page.py:142 私信页面_输入数据到学生私信输入框：等待('xpath', '//textarea[@class="ps-container"]')元素输入文本：666
+INFO     root:base_page.py:54 私信页面_点击发送按钮：等待('xpath', '//a[@class="btn btn-positive"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:33:45.799139,结束时间为:2019-12-27 18:33:45.825490,一共等待耗时为:-1 day, 23:59:59.973649
+INFO     root:base_page.py:112 私信页面_点击发送按钮：等待('xpath', '//a[@class="btn btn-positive"]')元素存在
+INFO     root:base_page.py:167 私信页面_点击发送按钮：等待('xpath', '//a[@class="btn btn-positive"]')元素点击
+INFO     root:base_page.py:88 聊天窗口_判断数据是否发送成功：等待('xpath', '//div[text()="666"]')元素存在
+INFO     root:base_page.py:103 等待结束.开始时间为2019-12-27 18:33:45.931875,结束时间为:2019-12-27 18:33:45.950419,一共等待耗时为:-1 day, 23:59:59.981456
+INFO     root:base_page.py:112 聊天窗口_判断数据是否发送成功：等待('xpath', '//div[text()="666"]')元素存在
+INFO     root:base_page.py:192 聊天窗口_判断数据是否发送成功：获取('xpath', '//div[text()="666"]')元素的文本值
+INFO     root:base_page.py:203 获取('xpath', '//div[text()="666"]')元素的文本值为：666

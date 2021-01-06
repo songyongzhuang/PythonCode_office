@@ -1,0 +1,16 @@
+ Sun, 15 Dec 2019 10:49:07  INFO logger.py <module> [ line:30 ] hehehe
+ Sun, 15 Dec 2019 10:49:18  INFO test_logins.py test_login_success [ line:54 ] ******* 登陆功能 - 正常场景用例：登陆成功 *******
+ Sun, 15 Dec 2019 10:49:18  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 10:49:18  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 10:49:18.952939,结束时间为:2019-12-15 10:49:18.976875,一共等待耗时为:0:00:00.023936
+ Sun, 15 Dec 2019 10:49:18  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 10:49:18  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 10:49:19.046699,结束时间为:2019-12-15 10:49:19.067643,一共等待耗时为:0:00:00.020944
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 10:49:19.133467,结束时间为:2019-12-15 10:49:19.152417,一共等待耗时为:0:00:00.018950
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 10:49:19  INFO basepage.py check_element_visible [ line:216 ] 首页_检测退出元素是否存在: 检测元素 ('xpath', '//a[text()="退出"]') 存在且可见于页面。
+ Sun, 15 Dec 2019 10:49:40  INFO basepage.py check_element_visible [ line:224 ]  10秒内元素可见。

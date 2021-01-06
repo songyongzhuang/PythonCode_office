@@ -1,0 +1,5 @@
+logger_handler.py-2019-09-26 22:09:55,917-INFO-日志信息：info级别log信息1
+logger_handler.py-2019-09-26 22:09:55,917-DEBUG-日志信息：debug级别log信息2
+logger_handler.py-2019-09-26 22:09:55,918-WARNING-日志信息：warning级别log信息3
+logger_handler.py-2019-09-26 22:09:55,918-ERROR-日志信息：error级别log信息4
+logger_handler.py-2019-09-26 22:09:55,919-CRITICAL-日志信息：critical级别log信息5

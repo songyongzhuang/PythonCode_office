@@ -1,0 +1,17 @@
+INFO     root:test_login.py:45 *** 登录功能 - 正常登录用例：登录成功 ***
+INFO     root:base_page.py:54 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:49.905162,结束时间为:2019-12-27 18:32:49.940298,一共等待耗时为:-1 day, 23:59:59.964864
+INFO     root:base_page.py:112 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素点击
+INFO     root:base_page.py:54 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:50.977786,结束时间为:2019-12-27 18:32:51.025609,一共等待耗时为:-1 day, 23:59:59.952177
+INFO     root:base_page.py:112 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素输入文本：17662460324
+INFO     root:base_page.py:54 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:51.174937,结束时间为:2019-12-27 18:32:51.202266,一共等待耗时为:-1 day, 23:59:59.972671
+INFO     root:base_page.py:112 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素输入文本：song656421952
+INFO     root:base_page.py:54 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:51.373065,结束时间为:2019-12-27 18:32:51.402345,一共等待耗时为:-1 day, 23:59:59.970720
+INFO     root:base_page.py:112 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素点击

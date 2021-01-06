@@ -1,0 +1,58 @@
+pytest
+
+1.用例的编写，支持函数
+2.用例的识别，自动化识别，识别规则，目录-文件名-用例名
+3.用例的断言，assert表达式(结果为True/False)-逻辑、比较、函数返回值
+4.用例的报告，unittest/pytest -- heml pytest是可以集成第三方报告工具
+
+语言写用例的用例框架共性
+1、写用例：前置步骤、断言、后置、pytest怎么表达前置后置
+2、运行用例：unittest、pytest .main()
+3、生成报告
+4、组织用例，筛选用例的功能
+5、运行用例时的配置，用例失败重试(unittest不自带、pytest自带)
+6、数据驱动支持； unittest：ddt   pytest：参数化
+
+pytest如何表达前置后置 (不可以与unittest、ddt 共存，)
+unittest：用例级别前置后置：测试类中与setup/teardown, 测试类级别前置后置：测试类中有setupClass/teardownClass
+pytest：fixture - 前置&后置。
+        级别：1、用例会话(session)级别：
+             2、模块级别(.py/module)
+             3、测试类(class)级别
+             4、测试用例(def/function(默认))级别
+# function 默认是测试用例(函数)级别
+# 测试类(class)级别
+# module 模块级别(.py)
+# package 包
+# session 测试用例会话
+
+        定义：一个函数包含前置和后置
+             1、怎么区分前和后 ：yield
+             2、函数名称可以随便定义，如何识别前置后置
+                函数前面@pytest.fixture
+             3、如果用例要使用 前置当中的变量，怎么办
+                返回用例要使用的变量 yielq 后面写返回值
+                用例调用的时候： fixture 的函数名称作为用例的参数，接收他的返回值
+
+        调用(与测试用例关联)
+        用例级别：
+        类前面：@pytest.mark.usefixtures('fixture的函数名称')
+        函数前面：@pytest.mark.usefixtures('fixture的函数名称')
+        conftest.py -- 前置后置全局共享
+        module / session
+
+        pytest.fixture 的继承
+        作用域：仅限于当前目录以及它的子孙后代目录当中的用例
+        conftest.py -- 前置后置  全局共享
+        定义各个级别的 fixture
+        fixture 可以继承 fixture 继承 ：可以继承高级别，但是不能继承底级别
+        继承流程：
+           1.父类的前置 --class
+           2.子类的前置
+           3.=== 执行用例 ===
+           4.子类的后置
+           5.父类的后置
+
+
+
+        module / session

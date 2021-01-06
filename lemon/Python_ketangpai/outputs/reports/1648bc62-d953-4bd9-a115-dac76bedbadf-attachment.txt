@@ -1,0 +1,21 @@
+INFO     root:base_page.py:54 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:13.638809,结束时间为:2019-12-27 18:32:13.764712,一共等待耗时为:-1 day, 23:59:59.874097
+INFO     root:base_page.py:112 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素点击
+INFO     root:base_page.py:54 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:14.635304,结束时间为:2019-12-27 18:32:14.667511,一共等待耗时为:-1 day, 23:59:59.967793
+INFO     root:base_page.py:112 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素输入文本：17662460324
+INFO     root:base_page.py:54 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:14.829528,结束时间为:2019-12-27 18:32:14.860759,一共等待耗时为:-1 day, 23:59:59.968769
+INFO     root:base_page.py:112 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素输入文本：song656421952
+INFO     root:base_page.py:54 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:15.062792,结束时间为:2019-12-27 18:32:15.089143,一共等待耗时为:-1 day, 23:59:59.973649
+INFO     root:base_page.py:112 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素点击
+INFO     root:test_course.py:57 *** 进入班级功能 - 正常登录用例：进入班级成功 ***
+INFO     root:base_page.py:54 课堂派_点击课程进入班级：等待('xpath', '//a[@data-id="MDAwMDAwMDAwMLR2vd6Gz8mw"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:15.237495,结束时间为:2019-12-27 18:32:16.392102,一共等待耗时为:-1 day, 23:59:58.845393
+INFO     root:base_page.py:112 课堂派_点击课程进入班级：等待('xpath', '//a[@data-id="MDAwMDAwMDAwMLR2vd6Gz8mw"]')元素存在
+INFO     root:base_page.py:167 课堂派_点击课程进入班级：等待('xpath', '//a[@data-id="MDAwMDAwMDAwMLR2vd6Gz8mw"]')元素点击

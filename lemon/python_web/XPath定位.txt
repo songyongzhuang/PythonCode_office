@@ -1,0 +1,103 @@
+# 课堂派首页 -- "登录"元素
+    //a[@class='login']
+
+# 课堂派登录界面 -- "输入账号"元素
+    //input[@type='text']
+    //input[@name='account']
+    //input[@placeholder='邮箱/账号/手机号']
+
+# 课堂派登录界面 -- "输入密码"元素
+    //input[@type='password']
+    //input[@name='pass']
+    //input[@placeholder='密码']
+
+# 课堂派登录界面 -- "登录"元素
+    //a[@class='btn-btn']
+
+# 课堂派登录界面 -- "账号登录"元素
+    //a[text()='账号登录']
+
+# 课堂派登录界面 -- "手机短信登录"元素
+    //a[text()='手机短信登录']
+
+# 课堂派登录界面 -- "微信登录"元素
+    //a[text()='微信登录']
+    //a[text()='手机短信登录']
+
+# 课堂派登录界面 -- "下次自动登录"元素
+    //div[@class="padding-cont pt-login"]//a[text()='下次自动登录']
+
+# 课堂派登录界面 -- "忘记密码？"元素
+    //div[@class="padding-cont pt-login"]//a[@class="forget fr"]
+
+# 课堂派登录界面 -- "右下角打开扫码"元素
+    //a[@class="qr-sj"]
+
+# 课堂派登录界面 -- "还没有账号？"元素
+    //div[@class='padding-cont pt-login']//span[@class="str1"]
+
+# 课堂派登录界面 -- "去注册"元素
+    //div[@class='padding-cont pt-login']//span[@class="str2"]
+
+
+------  登录后  ------
+# 课堂派界面 -- 左上角课堂派logo
+    //img[@width='96px']
+
+# 课堂派界面 -- 精品专区
+    //a[@href='/ExcellentResources/index.html?type=1']
+    //a[text()='精品专区']
+
+# 课堂派界面 -- 课堂
+    //a[@class='active']
+
+# 课堂派界面 -- 我的精品
+    //a[@href="/Mooc/Mooc/index.html"]
+    //a[text()='我的精品']
+
+# 课堂派界面 -- 论文查重
+    //a[@href="/PaperCheckrepeat/index.html"]//i
+    //i[text()='论文查重']
+
+# 课堂派界面 -- 小铃铛
+    //i[@class='iconfont iconxiaoxi1']
+
+# 课堂派界面 -- 用户头像
+    //img[@class='avatar']
+
+# 课堂派界面 -- 退出账户
+    //a[@class="link logout"]
+    //a[text()='退出账户']
+
+# 课堂派界面 --  + 加入课程
+    //div[@class="ktcon1 cl clearfix"]//div[@class="ktcon1l fr"]
+    //div[text()='+ 加入课程']
+
+# 课堂派界面 --  归档管理
+    //i[@class='iconfont iconguidangguanli1']/..
+
+# 课堂派界面 -- Python全栈第22期
+    //a[@class="jumptoclass"]
+    //strong//a[@title='Python全栈第22期']
+
+# 课堂派界面 -- 柠檬班-文文
+    //div[@class="teachername"]
+    //div[text()='柠檬班-文文']
+
+# 课堂派界面 -- 取消置顶
+javascript:;   javascript:;
+    //a[text()='取消置顶']
+
+# 课堂派界面 -- 置顶课程
+    //p[text()='置顶课程']
+
+# 课堂派界面 -- 更多
+    //span[text()='更多']
+
+# 课堂派界面 -- 私信
+    //div[@class='privateLetter']//a[@target='_blank']
+
+for i in range(1, 10):
+    for j in range(1, i+1):
+        print(f"{i}*{j}={i*j}", end=' ')
+    print()

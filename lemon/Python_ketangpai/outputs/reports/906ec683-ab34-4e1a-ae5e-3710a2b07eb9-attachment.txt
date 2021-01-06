@@ -1,0 +1,30 @@
+INFO     root:base_page.py:54 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:31.016183,结束时间为:2019-12-27 18:32:31.065958,一共等待耗时为:-1 day, 23:59:59.950225
+INFO     root:base_page.py:112 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 首页页面_点击登陆按钮：等待('xpath', '//a[text()="登录"]')元素点击
+INFO     root:base_page.py:54 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:32.009747,结束时间为:2019-12-27 18:32:32.052692,一共等待耗时为:-1 day, 23:59:59.957055
+INFO     root:base_page.py:112 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_账号输入框：等待('xpath', '//input[@name="account"]')元素输入文本：17662460324
+INFO     root:base_page.py:54 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:32.339639,结束时间为:2019-12-27 18:32:32.404052,一共等待耗时为:-1 day, 23:59:59.935587
+INFO     root:base_page.py:112 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素存在
+INFO     root:base_page.py:142 账号登录页面_密码输入框：等待('xpath', '//input[@name="pass"]')元素输入文本：song656421952
+INFO     root:base_page.py:54 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:32.641220,结束时间为:2019-12-27 18:32:32.671475,一共等待耗时为:-1 day, 23:59:59.969745
+INFO     root:base_page.py:112 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素存在
+INFO     root:base_page.py:167 账号登录页面_点击登陆按钮：等待('xpath', '//div[@class="padding-cont pt-login"]//a[text()="登录"]')元素点击
+INFO     root:base_page.py:54 课堂派_点击课程进入班级：等待('xpath', '//a[@data-id="MDAwMDAwMDAwMLR2vd6Gz8mw"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:33.674803,结束时间为:2019-12-27 18:32:33.757763,一共等待耗时为:-1 day, 23:59:59.917040
+INFO     root:base_page.py:112 课堂派_点击课程进入班级：等待('xpath', '//a[@data-id="MDAwMDAwMDAwMLR2vd6Gz8mw"]')元素存在
+INFO     root:base_page.py:167 课堂派_点击课程进入班级：等待('xpath', '//a[@data-id="MDAwMDAwMDAwMLR2vd6Gz8mw"]')元素点击
+INFO     root:test_job.py:55 *** 查看作业提交状态 - 查看作业提交状态 ***
+INFO     root:base_page.py:54 课堂页面_点击作业按钮：等待('xpath', '//div[@id="third-nav"]//a[text()="作业"]')元素可见
+INFO     root:base_page.py:77 等待结束.开始时间为2019-12-27 18:32:33.990054,结束时间为:2019-12-27 18:32:34.926034,一共等待耗时为:-1 day, 23:59:59.064020
+INFO     root:base_page.py:112 课堂页面_点击作业按钮：等待('xpath', '//div[@id="third-nav"]//a[text()="作业"]')元素存在
+INFO     root:base_page.py:167 课堂页面_点击作业按钮：等待('xpath', '//div[@id="third-nav"]//a[text()="作业"]')元素点击
+INFO     root:base_page.py:88 作业页面_提交按钮：等待('xpath', '//div[@class="work-new-r fl "]//a')元素存在
+INFO     root:base_page.py:103 等待结束.开始时间为2019-12-27 18:32:35.669625,结束时间为:2019-12-27 18:32:36.198657,一共等待耗时为:-1 day, 23:59:59.470968
+INFO     root:base_page.py:112 作业页面_提交按钮：等待('xpath', '//div[@class="work-new-r fl "]//a')元素存在
+INFO     root:base_page.py:192 作业页面_提交按钮：获取('xpath', '//div[@class="work-new-r fl "]//a')元素的文本值
+INFO     root:base_page.py:203 获取('xpath', '//div[@class="work-new-r fl "]//a')元素的文本值为：已提交

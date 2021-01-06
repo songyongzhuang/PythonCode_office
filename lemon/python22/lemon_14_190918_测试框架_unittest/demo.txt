@@ -1,0 +1,22 @@
+======================================================================
+FAIL: test_add_error (lemon_14_190918_测试框架_unittest.test_练习相加01.TestAdd)
+如果确定两个对象不相等，则失败。
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\PythonCode\python22\lemon_14_190918_测试框架_unittest\test_练习相加01.py", line 58, in test_add_error
+    self.assertEqual(7, add(x, y))  # 在前置条件中添加了测试数据这是先注释
+AssertionError: 7 != 8
+
+======================================================================
+FAIL: test_add_error (lemon_14_190918_测试框架_unittest.test_练习相减02.TestMinus)
+如果确定两个对象不相等，则失败。
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\PythonCode\python22\lemon_14_190918_测试框架_unittest\test_练习相减02.py", line 51, in test_add_error
+    self.assertEqual(7, minus(x, y))
+AssertionError: 7 != -2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+FAILED (failures=2)

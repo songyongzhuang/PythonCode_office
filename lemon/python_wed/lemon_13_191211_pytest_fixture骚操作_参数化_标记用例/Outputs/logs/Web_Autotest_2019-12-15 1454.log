@@ -1,0 +1,55 @@
+ Sun, 15 Dec 2019 14:54:37  INFO logger.py <module> [ line:30 ] hehehe
+ Sun, 15 Dec 2019 14:54:48  INFO test_logins.py test_login_failed_by_wrongData [ line:64 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:54:48.652397,结束时间为:2019-12-15 14:54:48.674339,一共等待耗时为:0:00:00.021942
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:54:48.791029,结束时间为:2019-12-15 14:54:48.811975,一共等待耗时为:0:00:00.020946
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:54:48.870817,结束时间为:2019-12-15 14:54:48.889765,一共等待耗时为:0:00:00.018948
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:54:48.944618,结束时间为:2019-12-15 14:54:48.963568,一共等待耗时为:0:00:00.018950
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py get_element [ line:93 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py get_element_text [ line:166 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Sun, 15 Dec 2019 14:54:48  INFO basepage.py get_element_text [ line:177 ] 获取的文本值为: 请输入手机号
+ Sun, 15 Dec 2019 14:55:01  INFO test_logins.py test_login_failed_by_wrongData [ line:64 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:01.776261,结束时间为:2019-12-15 14:55:01.801195,一共等待耗时为:0:00:00.024934
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:01.870010,结束时间为:2019-12-15 14:55:01.891953,一共等待耗时为:0:00:00.021943
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:01.934838,结束时间为:2019-12-15 14:55:01.951828,一共等待耗时为:0:00:00.016990
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 14:55:01  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Sun, 15 Dec 2019 14:55:02  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:01.999664,结束时间为:2019-12-15 14:55:02.017617,一共等待耗时为:0:00:00.017953
+ Sun, 15 Dec 2019 14:55:02  INFO basepage.py get_element [ line:93 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Sun, 15 Dec 2019 14:55:02  INFO basepage.py get_element_text [ line:166 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Sun, 15 Dec 2019 14:55:02  INFO basepage.py get_element_text [ line:177 ] 获取的文本值为: 请输入密码
+ Sun, 15 Dec 2019 14:55:15  INFO test_logins.py test_login_failed_by_wrongData [ line:64 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:15.488594,结束时间为:2019-12-15 14:55:15.513524,一共等待耗时为:0:00:00.024930
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 186847205
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:15.581343,结束时间为:2019-12-15 14:55:15.605279,一共等待耗时为:0:00:00.023936
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:15.667115,结束时间为:2019-12-15 14:55:15.686065,一共等待耗时为:0:00:00.018950
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:55:15.748895,结束时间为:2019-12-15 14:55:15.765850,一共等待耗时为:0:00:00.016955
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py get_element [ line:93 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py get_element_text [ line:166 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Sun, 15 Dec 2019 14:55:15  INFO basepage.py get_element_text [ line:177 ] 获取的文本值为: 请输入正确的手机号

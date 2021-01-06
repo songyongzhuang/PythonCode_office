@@ -1,0 +1,2 @@
+ Sun, 15 Dec 2019 11:02:30  INFO logger.py <module> [ line:30 ] hehehe
+ Sun, 15 Dec 2019 11:02:40  INFO test_logins.py test_login_failed_by_wrongData [ line:64 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******

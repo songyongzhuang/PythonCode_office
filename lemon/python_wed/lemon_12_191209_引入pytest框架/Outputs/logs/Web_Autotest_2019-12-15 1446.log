@@ -1,0 +1,34 @@
+ Sun, 15 Dec 2019 14:46:28  INFO logger.py <module> [ line:30 ] hehehe
+ Sun, 15 Dec 2019 14:46:43  INFO test_logins.py test_login_success [ line:52 ] ******* 登陆功能 - 正常场景用例：登陆成功 *******
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:46:43.653976,结束时间为:2019-12-15 14:46:43.684892,一共等待耗时为:0:00:00.030916
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:46:43.757699,结束时间为:2019-12-15 14:46:43.779643,一共等待耗时为:0:00:00.021944
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:46:43.836489,结束时间为:2019-12-15 14:46:43.854441,一共等待耗时为:0:00:00.017952
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 14:46:43  INFO basepage.py check_element_visible [ line:216 ] 首页_检测退出元素是否存在: 检测元素 ('xpath', '//a[text()="退出"]') 存在且可见于页面。
+ Sun, 15 Dec 2019 14:47:05  INFO basepage.py check_element_visible [ line:224 ]  10秒内元素可见。
+ Sun, 15 Dec 2019 14:47:18  INFO test_logins.py test_login_failed_by_wrong_passwd [ line:70 ] ******* 登陆功能 - 异常场景用例：数据后台有效性校验 - 密码错误 *******
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:47:18.552524,结束时间为:2019-12-15 14:47:18.577455,一共等待耗时为:0:00:00.024931
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py get_element [ line:93 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py input_text [ line:121 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:47:18.647270,结束时间为:2019-12-15 14:47:18.669583,一共等待耗时为:0:00:00.022313
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py get_element [ line:93 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py input_text [ line:121 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python11
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:47:18.730420,结束时间为:2019-12-15 14:47:18.749368,一共等待耗时为:0:00:00.018948
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py get_element [ line:93 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py click_element [ line:143 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun, 15 Dec 2019 14:47:18  INFO basepage.py wait_ele_visible [ line:43 ] 登陆页面_页面中间toast错误提示 : 等待 ('xpath', '//div[@class="layui-layer-content"]') 元素可见
+ Sun, 15 Dec 2019 14:47:19  INFO basepage.py wait_ele_visible [ line:58 ] 等待结束.开始时间为2019-12-15 14:47:18.798238,结束时间为:2019-12-15 14:47:19.326824,一共等待耗时为:0:00:00.528586
+ Sun, 15 Dec 2019 14:47:19  INFO basepage.py get_element [ line:93 ] 登陆页面_页面中间toast错误提示 : 查找 ('xpath', '//div[@class="layui-layer-content"]') 元素.
+ Sun, 15 Dec 2019 14:47:19  INFO basepage.py get_element_text [ line:166 ] 登陆页面_页面中间toast错误提示: 获取 ('xpath', '//div[@class="layui-layer-content"]')  元素的文本内容.
+ Sun, 15 Dec 2019 14:47:19  INFO basepage.py get_element_text [ line:177 ] 获取的文本值为: 帐号或密码错误!

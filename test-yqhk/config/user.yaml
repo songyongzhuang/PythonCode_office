@@ -1,0 +1,4 @@
+# yaml
+user_test_01:
+    user: admin
+    psw: 123456
