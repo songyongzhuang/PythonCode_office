@@ -5,6 +5,7 @@
 # Create time  : 2020-07-12 10:40
 # IDE          : PyCharm
 # TODO 成长很苦，进步很甜，加油！
+# 哈哈 代码画树
 
 from turtle import *
 
