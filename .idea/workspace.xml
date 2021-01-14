@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd74e43-217f-4a1a-a87b-d7ed78cd7c8f" name="Default Changelist" comment="office" />
+    <list default="true" id="cdd74e43-217f-4a1a-a87b-d7ed78cd7c8f" name="Default Changelist" comment="office 添加代码_画树">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lemon/Python_ketangpai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -147,6 +149,21 @@
       <option name="presentableId" value="Default" />
       <updated>1600154053599</updated>
     </task>
+    <task id="LOCAL-00001" summary="office 添加代码_画树">
+      <created>1609902880942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609902880942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="office 添加代码_画树">
+      <created>1609902904809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609902904809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +184,8 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/test-yqhk" />
     </ignored-roots>
+    <MESSAGE value="office 添加代码_画树" />
+    <option name="LAST_COMMIT_MESSAGE" value="office 添加代码_画树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

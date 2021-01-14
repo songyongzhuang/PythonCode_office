@@ -21,6 +21,9 @@ datefmt = '%a, %d %b %Y %H:%M:%S'
 handler_1 = logging.StreamHandler()
 curTime = time.strftime("%Y-%m-%d %H-%M", time.localtime())
 log_path = os.path.join(DirPath.logs_dir, f'Web_logging_{curTime}.log')
+# 没有日志文件夹就新增
+if os.path.exists(DirPath.logs_dir) is False:
+    os.mkdir(DirPath.logs_dir)
 handler_2 = RotatingFileHandler(log_path, backupCount=20, encoding='utf-8')
 logging.basicConfig(format=formats, datefmt=datefmt, level=logging.DEBUG, handlers=[handler_1, handler_2])
 

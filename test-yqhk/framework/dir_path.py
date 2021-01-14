@@ -18,3 +18,7 @@ class DirPath(object):
     framework_dir = os.path.join(base_dir, 'framework')
     # 日志
     logs_dir = os.path.join(framework_dir, 'logs')
+    # print(logs_dir)
+    print(os.path.exists(logs_dir))
+    if os.path.exists(logs_dir) is False:
+        os.mkdir(logs_dir)

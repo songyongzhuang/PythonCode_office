@@ -24,7 +24,8 @@ handler_1 = logging.StreamHandler()
 curTime = time.strftime("%Y-%m-%d %H-%M", time.localtime())
 # 创建日志路径
 log_path = os.path.join(DirPath.logs_dir, f'Web_Autotest_{curTime}.log')
-
+if os.path.exists(DirPath.logs_dir) is False:
+    os.mkdir(DirPath.logs_dir)
 handler_2 = RotatingFileHandler(log_path, backupCount=20, encoding='utf-8')
 # 设置root logger 的输出内容形式，输出渠道
 # format 日志格式、datefmt 时间格式、level日记级别、handlers
